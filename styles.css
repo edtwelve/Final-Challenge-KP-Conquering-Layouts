@@ -20,6 +20,13 @@ header {
     padding: 1em 0;
 }
 
+.container {
+    width: 80%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
 .logo-section {
     display:flex;
     justify-content:center;
@@ -41,13 +48,12 @@ header {
 .nav__right-list {
     display:flex;
     margin: 0 0.5em;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav__right-list {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 .nav__item {
@@ -59,10 +65,15 @@ header {
     margin-top: 0.5em;
 }
 
-
 .btn-color {
     background-color: #A59678;
     border-radius: 100px;
     padding: 0.2em 0.5em;
     color:white;
 }
+
+.hero {
+    background-color: #3B4050;
+    color: white;
+}
+

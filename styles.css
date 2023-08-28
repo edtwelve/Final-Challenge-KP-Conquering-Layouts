@@ -38,6 +38,9 @@ header {
     margin-bottom: 0.5em;
 }
 
+.nav__left {
+    margin: 0.215em;
+}
 .nav__link {
     color:white;
     text-decoration: none;
@@ -71,17 +74,21 @@ header {
     color:white;
 }
 
+.btn-color:hover {
+    opacity: 0.7;
+}
+
 .hero {
     background-color: #3B4050;
     color: white;
 }
-
 
 .hero-container {
     display:flex;
     flex-direction: column;
     gap: 1em;
 }
+
 .hero-left {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -111,4 +118,32 @@ header {
     font-size: 24px;
     padding: 0.2em 1.5em;
     text-transform: uppercase;
+}
+
+.characteristics {
+    background-color: #f1f1f1;
+}
+
+.characts-container {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    gap: 1em;
+}
+
+.characts-container article {
+    
+}
+.c-title {
+    font-family: 'Oswald', sans-serif;
+    color: #A59678;
+    margin-bottom: 0.5em;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.c-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
 }

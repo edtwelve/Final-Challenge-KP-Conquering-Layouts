@@ -3,3 +3,16 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.footer-sections {
+    display: grid;
+    grid-template:none;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}

@@ -46,3 +46,43 @@ header .container {
 .hero-description {
     font-size: 24px;
 }
+
+.characts-container {
+    gap: 7em;
+}
+
+.perks .container {
+    display: flex;
+    gap: 8em;
+}
+
+.perk-description img {
+    margin: 2em 0;
+}
+
+.perk-breakdown {
+    flex-direction: column;
+    gap: 1em;
+    margin: 0;
+}
+
+.pb-aside {
+    padding: 1em;
+}
+
+.pb-aside p {
+    width: 100%;
+    margin: 0 auto 0.5em;
+}
+
+.pb-aside h3 {
+    font-size: 1.875em;
+}
+
+.pb-aside p, .pd-text {
+    font-size: 1.3125em;
+}
+
+.footer .container {
+    padding: 3.35em 0;
+}

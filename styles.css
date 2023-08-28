@@ -131,9 +131,6 @@ header {
     gap: 1em;
 }
 
-/*.characts-container article {
-    
-}*/
 .c-title {
     font-family: 'Oswald', sans-serif;
     color: #A59678;
@@ -241,3 +238,7 @@ footer {
     margin: 1em 0;
 }
 
+.fs_link:hover,
+.nav__link:hover {
+    opacity: 0.8;
+}

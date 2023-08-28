@@ -4,11 +4,48 @@
     padding: 0;
 }
 
+header .container {
+    padding: 1em;
+}
+
+.hero-container {
+    flex-direction: row;
+    gap: 2em;
+}
+
+.hero-left {
+    text-align: left;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.btn-container {
+    justify-content: flex-start;
+}
+
+.characts-container {
+    flex-direction: row;
+    place-content: center;
+    gap: 2em;
+}
+
+.perk-breakdown {
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.pb-aside {
+    padding: 1em;
+}
 .container {
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2em 0;
+    padding: 3em 0;
 }
 
 .footer-sections {

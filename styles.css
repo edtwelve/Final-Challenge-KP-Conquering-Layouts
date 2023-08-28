@@ -131,9 +131,9 @@ header {
     gap: 1em;
 }
 
-.characts-container article {
+/*.characts-container article {
     
-}
+}*/
 .c-title {
     font-family: 'Oswald', sans-serif;
     color: #A59678;
@@ -146,6 +146,10 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.125rem;
     text-align: center;
+}
+
+.c-description, .pb-aside p {
+    line-height: 1.50em;
 }
 
 .pd-title {
@@ -163,4 +167,32 @@ header {
 
 .perk-description img {
     margin-bottom: 1.5em;
+}
+
+.perk-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.pb-aside {
+    background-color: #3B4050;
+    color: white;
+    border: 1px solid red;
+    padding: 2em;
+}
+
+.pb-aside h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    margin-bottom: 0.5em;
+}
+
+.pb-aside p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto 1.25em;
 }

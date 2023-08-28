@@ -3,3 +3,46 @@
     margin: 0;
     padding: 0;
 }
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.container {
+    padding: 7em 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    flex-direction: row;
+}
+
+.logo-section {
+    align-items: center;
+    margin: 0;
+}
+
+.nav__right-list {
+    flex-direction: row;
+    align-items: center;
+    margin: 0.215em;
+}
+
+.nav__right-list .nav__item {
+    margin: 0em;
+}
+
+.sign-up {
+    margin-left: 0.5em;
+}
+
+.hero-left {
+    font-size: 65px;
+    line-height:1.5em;
+}
+
+.hero-description {
+    font-size: 24px;
+}
